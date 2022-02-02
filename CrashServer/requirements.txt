@@ -1,0 +1,8 @@
+redis
+pika
+mysql-connector-python
+janus
+websockets
+pymongo
+msgpack
+pyyaml

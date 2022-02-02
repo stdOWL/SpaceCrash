@@ -1,0 +1,42 @@
+bots:
+  ws: wss://crash-stream.acedbets.io/
+  apiBase: https://api.acedbets.io
+
+  minOnlineBot: 0
+  maxOnlineBot: 8
+  autoDeposit: True
+
+  createAccountPercentage: 30
+  # all times are minutes
+
+  checkBotsTime: 5
+  minKeepOnlineTime: 1
+  maxKeepOnlineTime: 40
+
+
+
+
+redis:
+  host: 167.86.97.76
+  port: 6379
+  db: 0
+  password: d3786d3dbb2d213ed40995d3d431888edc2895f992e20e45fda9f30b7238c083
+
+mysql:
+  host: 173.249.0.254
+  user: root
+  password: N54RMTD8qcJkHzX9
+  database: aced
+
+mongodb:
+  host: 173.249.0.254
+  user: axHfNV4YQEFv3qdQ
+  password: BBHxhQK89nGUJCj9hmkPL5rzTFVX9qeh
+  database: crash
+
+rabbitmq:
+  host: 167.86.97.76
+  vhost: "/"
+  user: admin
+  password: StrongPassword
+
